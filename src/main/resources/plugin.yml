@@ -1,0 +1,24 @@
+name: PencilEditor
+main: com.polypenguin.pencil.Pencil
+version: 0.0.2.86
+api-version: 1.13
+description: Next generation Voxel Editing for Minecraft.
+author: [Matthias Kovacic]
+
+commands:
+  pencil:
+    description: The main pencil command!
+
+permissions:
+  pencil.admin:
+    description: Automatically gives the player the ability to do everything with Pencil.
+  pencil.guest.menu:
+    description: Gives players the ability to obtain a menu.
+  pencil.guest.generate:
+    description: Gives players the ability to generate objects.
+  pencil.guest.operations:
+      description: Gives players the ability to perform operations.
+  pencil.guest.undo:
+      description: Gives players the ability to undo their actions.
+  pencil.guest.redo:
+      description: Gives players the ability to redo their actions.
